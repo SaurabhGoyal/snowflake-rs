@@ -1,5 +1,5 @@
-use snowflake::Config;
-use snowflake::Generator;
+use snowflake_uid::Config;
+use snowflake_uid::Generator;
 
 fn main() {
     let cfg = Config::default();
