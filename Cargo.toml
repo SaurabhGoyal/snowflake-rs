@@ -3,4 +3,13 @@ name = "snowflake"
 version = "0.1.0"
 edition = "2021"
 
+authors = ["Saurabh Goyal <saurabh.2561@gmail.com>"]
+description = "A module for generating guaranteed unique IDs among a cluster of nodes using Snowflake logic."
+license = "MIT/Apache-2.0"
+readme = "README.md"
+
+repository = "https://github.com/SaurabhGoyal/snowflake-rs"
+homepage = "https://github.com/SaurabhGoyal/snowflake-rs"
+documentation = "https://docs.rs/snowflake"
+
 [dependencies]

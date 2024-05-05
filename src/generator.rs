@@ -16,6 +16,10 @@ pub struct Generator {
 }
 
 impl Generator {
+    /// Returns a generator with given config for a given node-id.
+    /// Same config should be used across all nodes of a cluster.
+    /// Number of nodes is constrained by the `node_id_bit_count` in
+    /// config.
     pub fn from(config: Config, node_id: u64) -> Self {
         let max_node_id = (1 << config.node_id_bit_count()) - 1;
         if node_id > max_node_id {
