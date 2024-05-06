@@ -1,6 +1,4 @@
-pub mod config;
-
-use config::Config;
+use super::Config;
 
 use std::{
     thread,
